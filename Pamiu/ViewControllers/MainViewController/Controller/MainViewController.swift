@@ -16,8 +16,7 @@ class MainViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
-        
+//         Do any additional setup after loading the view.
         
 //        let locationManager = CLLocationManager.init()
 //        // 1. 還沒有詢問過用戶以獲得權限
