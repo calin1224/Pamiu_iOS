@@ -1,19 +1,22 @@
 //
-//  MainViewController.swift
+//  AgreeViewController.swift
 //  Pamiu
 //
-//  Created by gh.com on 2017/12/6.
+//  Created by gh.com on 2017/12/13.
 //  Copyright © 2017年 studio.com. All rights reserved.
 //
 
 import UIKit
 
-class MainViewController: UIViewController {
+class AgreeViewController: UIViewController {
 
+    @IBOutlet weak var btnAgree: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        self.initView()
     }
 
     override func didReceiveMemoryWarning() {
@@ -31,5 +34,18 @@ class MainViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    
+    func initView() -> Void {
+        
+        self.btnAgree.layer.cornerRadius = 22
+        
+        
+    }
+    
+    
+    
+    
+    
+    
 
 }

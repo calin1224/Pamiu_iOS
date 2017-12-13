@@ -8,24 +8,42 @@
 
 /* Begin PBXBuildFile section */
 		290BBE6D1FD7F27B008971BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290BBE6C1FD7F27B008971BB /* AppDelegate.swift */; };
-		290BBE6F1FD7F27B008971BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290BBE6E1FD7F27B008971BB /* ViewController.swift */; };
 		290BBE721FD7F27B008971BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 290BBE701FD7F27B008971BB /* Main.storyboard */; };
 		290BBE741FD7F27B008971BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 290BBE731FD7F27B008971BB /* Assets.xcassets */; };
 		290BBE771FD7F27B008971BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 290BBE751FD7F27B008971BB /* LaunchScreen.storyboard */; };
 		290BBE801FD7F372008971BB /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290BBE7E1FD7F372008971BB /* MainViewController.swift */; };
 		290BBE811FD7F372008971BB /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 290BBE7F1FD7F372008971BB /* MainViewController.xib */; };
+		29174EC71FDFA7D2000E1DCE /* app_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 29174EC61FDFA7D2000E1DCE /* app_logo.png */; };
+		29174ECC1FDFB586000E1DCE /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29174ECA1FDFB586000E1DCE /* MapViewController.swift */; };
+		29174ECD1FDFB586000E1DCE /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29174ECB1FDFB586000E1DCE /* MapViewController.xib */; };
+		292A47DC1FE10261002E0011 /* AgreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292A47DA1FE10261002E0011 /* AgreeViewController.swift */; };
+		292A47DD1FE10261002E0011 /* AgreeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 292A47DB1FE10261002E0011 /* AgreeViewController.xib */; };
+		292A47E01FE10334002E0011 /* woman_walk.png in Resources */ = {isa = PBXBuildFile; fileRef = 292A47DE1FE10334002E0011 /* woman_walk.png */; };
+		292A47E11FE10334002E0011 /* location_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 292A47DF1FE10334002E0011 /* location_icon.png */; };
+		292A47E41FE10E46002E0011 /* UIButtonHighlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292A47E31FE10E46002E0011 /* UIButtonHighlight.swift */; };
+		4A49C0DFA6E73166CCC59ED6 /* Pods_Pamiu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 888F1C64607E2C21279163A6 /* Pods_Pamiu.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		190773740D584A7D430D1D2A /* Pods-Pamiu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pamiu.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pamiu/Pods-Pamiu.release.xcconfig"; sourceTree = "<group>"; };
 		290BBE691FD7F27B008971BB /* Pamiu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pamiu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		290BBE6C1FD7F27B008971BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		290BBE6E1FD7F27B008971BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		290BBE711FD7F27B008971BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		290BBE731FD7F27B008971BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		290BBE761FD7F27B008971BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		290BBE781FD7F27C008971BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		290BBE7E1FD7F372008971BB /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		290BBE7F1FD7F372008971BB /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		29174EC61FDFA7D2000E1DCE /* app_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = app_logo.png; path = Resource/pic/app_logo.png; sourceTree = SOURCE_ROOT; };
+		29174ECA1FDFB586000E1DCE /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		29174ECB1FDFB586000E1DCE /* MapViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
+		292A47DA1FE10261002E0011 /* AgreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgreeViewController.swift; sourceTree = "<group>"; };
+		292A47DB1FE10261002E0011 /* AgreeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AgreeViewController.xib; sourceTree = "<group>"; };
+		292A47DE1FE10334002E0011 /* woman_walk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = woman_walk.png; path = Resource/pic/woman_walk.png; sourceTree = SOURCE_ROOT; };
+		292A47DF1FE10334002E0011 /* location_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = location_icon.png; path = Resource/pic/location_icon.png; sourceTree = SOURCE_ROOT; };
+		292A47E31FE10E46002E0011 /* UIButtonHighlight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonHighlight.swift; sourceTree = "<group>"; };
+		888F1C64607E2C21279163A6 /* Pods_Pamiu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pamiu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6E50B9A6904059DD4B20BB8 /* Pods-Pamiu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pamiu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pamiu/Pods-Pamiu.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A49C0DFA6E73166CCC59ED6 /* Pods_Pamiu.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +63,8 @@
 			children = (
 				290BBE6B1FD7F27B008971BB /* Pamiu */,
 				290BBE6A1FD7F27B008971BB /* Products */,
+				9B17A62A9E53407076ECF8F4 /* Pods */,
+				3CB774FA587F069BC847815C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +79,112 @@
 		290BBE6B1FD7F27B008971BB /* Pamiu */ = {
 			isa = PBXGroup;
 			children = (
-				290BBE7E1FD7F372008971BB /* MainViewController.swift */,
-				290BBE7F1FD7F372008971BB /* MainViewController.xib */,
+				292A47E21FE10E15002E0011 /* Views */,
+				29174EB81FDFA507000E1DCE /* Resource */,
+				29174EC11FDFA6C5000E1DCE /* ViewControllers */,
 				290BBE6C1FD7F27B008971BB /* AppDelegate.swift */,
-				290BBE6E1FD7F27B008971BB /* ViewController.swift */,
 				290BBE701FD7F27B008971BB /* Main.storyboard */,
 				290BBE731FD7F27B008971BB /* Assets.xcassets */,
 				290BBE751FD7F27B008971BB /* LaunchScreen.storyboard */,
 				290BBE781FD7F27C008971BB /* Info.plist */,
 			);
 			path = Pamiu;
+			sourceTree = "<group>";
+		};
+		29174EB81FDFA507000E1DCE /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				29174EBA1FDFA512000E1DCE /* icon */,
+				29174EB91FDFA50E000E1DCE /* pic */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		29174EB91FDFA50E000E1DCE /* pic */ = {
+			isa = PBXGroup;
+			children = (
+				292A47DF1FE10334002E0011 /* location_icon.png */,
+				292A47DE1FE10334002E0011 /* woman_walk.png */,
+				29174EC61FDFA7D2000E1DCE /* app_logo.png */,
+			);
+			path = pic;
+			sourceTree = "<group>";
+		};
+		29174EBA1FDFA512000E1DCE /* icon */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = icon;
+			sourceTree = "<group>";
+		};
+		29174EC11FDFA6C5000E1DCE /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				29174EC21FDFA6E1000E1DCE /* MainViewController */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		29174EC21FDFA6E1000E1DCE /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				29174EC51FDFA708000E1DCE /* Model */,
+				29174EC41FDFA703000E1DCE /* Views */,
+				29174EC31FDFA6FD000E1DCE /* Controller */,
+			);
+			path = MainViewController;
+			sourceTree = "<group>";
+		};
+		29174EC31FDFA6FD000E1DCE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				290BBE7E1FD7F372008971BB /* MainViewController.swift */,
+				290BBE7F1FD7F372008971BB /* MainViewController.xib */,
+				29174ECA1FDFB586000E1DCE /* MapViewController.swift */,
+				29174ECB1FDFB586000E1DCE /* MapViewController.xib */,
+				292A47DA1FE10261002E0011 /* AgreeViewController.swift */,
+				292A47DB1FE10261002E0011 /* AgreeViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		29174EC41FDFA703000E1DCE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		29174EC51FDFA708000E1DCE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		292A47E21FE10E15002E0011 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				292A47E31FE10E46002E0011 /* UIButtonHighlight.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3CB774FA587F069BC847815C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				888F1C64607E2C21279163A6 /* Pods_Pamiu.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B17A62A9E53407076ECF8F4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C6E50B9A6904059DD4B20BB8 /* Pods-Pamiu.debug.xcconfig */,
+				190773740D584A7D430D1D2A /* Pods-Pamiu.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +194,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 290BBE7B1FD7F27C008971BB /* Build configuration list for PBXNativeTarget "Pamiu" */;
 			buildPhases = (
+				16025AADF36A9847B0798922 /* [CP] Check Pods Manifest.lock */,
 				290BBE651FD7F27B008971BB /* Sources */,
 				290BBE661FD7F27B008971BB /* Frameworks */,
 				290BBE671FD7F27B008971BB /* Resources */,
+				3BE817611F1B0A58375A58AD /* [CP] Embed Pods Frameworks */,
+				CEFA8BBA4EB615F218A63578 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,7 +250,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				290BBE771FD7F27B008971BB /* LaunchScreen.storyboard in Resources */,
+				292A47E01FE10334002E0011 /* woman_walk.png in Resources */,
+				29174ECD1FDFB586000E1DCE /* MapViewController.xib in Resources */,
+				292A47DD1FE10261002E0011 /* AgreeViewController.xib in Resources */,
 				290BBE741FD7F27B008971BB /* Assets.xcassets in Resources */,
+				29174EC71FDFA7D2000E1DCE /* app_logo.png in Resources */,
+				292A47E11FE10334002E0011 /* location_icon.png in Resources */,
 				290BBE721FD7F27B008971BB /* Main.storyboard in Resources */,
 				290BBE811FD7F372008971BB /* MainViewController.xib in Resources */,
 			);
@@ -138,14 +263,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		16025AADF36A9847B0798922 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pamiu-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3BE817611F1B0A58375A58AD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Pamiu/Pods-Pamiu-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pamiu/Pods-Pamiu-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEFA8BBA4EB615F218A63578 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pamiu/Pods-Pamiu-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		290BBE651FD7F27B008971BB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				292A47E41FE10E46002E0011 /* UIButtonHighlight.swift in Sources */,
 				290BBE801FD7F372008971BB /* MainViewController.swift in Sources */,
-				290BBE6F1FD7F27B008971BB /* ViewController.swift in Sources */,
+				29174ECC1FDFB586000E1DCE /* MapViewController.swift in Sources */,
 				290BBE6D1FD7F27B008971BB /* AppDelegate.swift in Sources */,
+				292A47DC1FE10261002E0011 /* AgreeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +461,7 @@
 		};
 		290BBE7C1FD7F27C008971BB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6E50B9A6904059DD4B20BB8 /* Pods-Pamiu.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -295,6 +477,7 @@
 		};
 		290BBE7D1FD7F27C008971BB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 190773740D584A7D430D1D2A /* Pods-Pamiu.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

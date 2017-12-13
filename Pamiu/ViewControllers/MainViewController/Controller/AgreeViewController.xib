@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AgreeViewController" customModule="Pamiu" customModuleProvider="target">
+            <connections>
+                <outlet property="btnAgree" destination="UGF-Bz-LVE" id="UyY-m2-2pr"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ww1-GK-Pnx">
+                    <rect key="frame" x="270" y="25" width="99" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="YOs-Kz-RUB"/>
+                        <constraint firstAttribute="width" constant="99" id="fQp-QO-Hga"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" title="跳過此步驟 &gt; ">
+                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="location_icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="oFQ-e5-1I9">
+                    <rect key="frame" x="163" y="60" width="50" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="4Nv-dg-Zsy"/>
+                        <constraint firstAttribute="height" constant="50" id="Alu-w7-Ir2"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="尋找您附近的餐廳" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ax6-N9-pG4">
+                    <rect key="frame" x="106" y="118" width="164" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="doH-wt-Z4B"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="請允許Pamiu搜尋您目前所在的位置以及附近餐廳，方便快速點餐!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4OA-8e-hv1">
+                    <rect key="frame" x="42" y="147" width="291" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="1Ge-CZ-cxH"/>
+                        <constraint firstAttribute="width" constant="291" id="urE-jF-aDi"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="woman_walk.png" translatesAutoresizingMaskIntoConstraints="NO" id="i1G-A7-ERC">
+                    <rect key="frame" x="0.0" y="199" width="375" height="358.5"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="i1G-A7-ERC" secondAttribute="height" multiplier="414:395" id="WTb-kE-e15"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UGF-Bz-LVE" customClass="UIButtonHighlight" customModule="Pamiu" customModuleProvider="target">
+                    <rect key="frame" x="20" y="602" width="335" height="45"/>
+                    <color key="backgroundColor" red="0.96078431369999995" green="0.16078431369999999" blue="0.2666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="B1y-hj-Jf6"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                    <state key="normal" title="我同意">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="UGF-Bz-LVE" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="4fG-O2-mbS"/>
+                <constraint firstItem="i1G-A7-ERC" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="C2T-rg-Y2k"/>
+                <constraint firstItem="4OA-8e-hv1" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="JCi-eN-eeG"/>
+                <constraint firstItem="i1G-A7-ERC" firstAttribute="top" secondItem="4OA-8e-hv1" secondAttribute="bottom" constant="8" id="PaQ-jT-K5J"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="UGF-Bz-LVE" secondAttribute="bottom" constant="20" id="Q9Z-7o-0bc"/>
+                <constraint firstItem="i1G-A7-ERC" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="UfC-ey-2Xx"/>
+                <constraint firstItem="4OA-8e-hv1" firstAttribute="top" secondItem="ax6-N9-pG4" secondAttribute="bottom" constant="8" id="Wnh-l9-3PT"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Ww1-GK-Pnx" secondAttribute="trailing" constant="6" id="YML-ke-RzA"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="UGF-Bz-LVE" secondAttribute="trailing" constant="20" id="b8v-dX-GxA"/>
+                <constraint firstItem="oFQ-e5-1I9" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="40" id="cnr-uU-bIn"/>
+                <constraint firstItem="ax6-N9-pG4" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="icg-GK-MFn"/>
+                <constraint firstItem="UGF-Bz-LVE" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="j6B-dW-Wz2"/>
+                <constraint firstItem="Ww1-GK-Pnx" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="5" id="seI-Hl-b2x"/>
+                <constraint firstItem="ax6-N9-pG4" firstAttribute="top" secondItem="oFQ-e5-1I9" secondAttribute="bottom" constant="8" id="xP0-ao-ZQF"/>
+                <constraint firstItem="oFQ-e5-1I9" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="zd3-Wq-9Iq"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="24.5" y="51.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="location_icon.png" width="240" height="240"/>
+        <image name="woman_walk.png" width="500" height="478"/>
+    </resources>
+</document>
